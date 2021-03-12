@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import "./App.css";
+import NavBar1 from './components/NavBar1';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Header />
       <NavBar />
       <About />
+      <NavBar1/>
       <Skills />
     </div>
   );
