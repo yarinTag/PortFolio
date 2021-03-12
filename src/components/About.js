@@ -2,7 +2,7 @@
 
 import React from "react";
 import "../styles/components/About.css";
-import about from "../imgs/about1.png";
+import about from "../imgs/profileImg2.JPG";
 
 export default function About() {
   return (

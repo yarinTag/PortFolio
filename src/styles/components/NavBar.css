@@ -8,6 +8,7 @@
   overflow: hidden;
   height: 75px;
   display: flex;
+  flex-wrap: wrap;
   background-color: rgba(238, 234, 234, 0.589);
   /* justify-content: center; */
   background-position: center;

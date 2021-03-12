@@ -5,6 +5,7 @@ import "./styles/pages/page.css";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import "./App.css";
 
 export default function App() {
   return (
@@ -12,7 +13,7 @@ export default function App() {
       <Header />
       <NavBar />
       <About />
-      <Skills/>
+      <Skills />
     </div>
   );
 }

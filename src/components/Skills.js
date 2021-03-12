@@ -63,26 +63,28 @@ const Skills = () => {
         </div>
 
         <div className="test flex-wrap ">
-          <FadeLeft>
-            <a className="skill__link css">
-              <FaCss3 />
-            </a>
-          </FadeLeft>
-          <FadeUp>
-            <a className="skill__link mongo">
-              <FcAndroidOs />
-            </a>
-          </FadeUp>
-          <FadeDown>
-            <a className="skill__link mysql">
-              <SiMysql />
-            </a>
-          </FadeDown>
-          <FadeRight>
-            <a className="skill__link skill__java">
-              <FaAngular />
-            </a>
-          </FadeRight>
+          <div className="skills_link">
+            <FadeLeft>
+              <a className="skill__link css">
+                <FaCss3 />
+              </a>
+            </FadeLeft>
+            <FadeUp>
+              <a className="skill__link mongo">
+                <FcAndroidOs />
+              </a>
+            </FadeUp>
+            <FadeDown>
+              <a className="skill__link mysql">
+                <SiMysql />
+              </a>
+            </FadeDown>
+            <FadeRight>
+              <a className="skill__link skill__java">
+                <FaAngular />
+              </a>
+            </FadeRight>
+          </div>
         </div>
       </div>
     </section>
