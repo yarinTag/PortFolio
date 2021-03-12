@@ -1,11 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+/** @format */
 
-import './styles/reset.min.css'
-import './styles/global.css'
+import React from "react";
+import ReactDOM from "react-dom";
 
-import App from  './app';
+import "./styles/reset.min.css";
+import "./styles/global.css";
 
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,4 +14,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
-
