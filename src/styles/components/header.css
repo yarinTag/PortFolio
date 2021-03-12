@@ -1,0 +1,44 @@
+/** @format */
+
+.header_container {
+  height: 750px;
+  background-color: black;
+  display: flex;
+  background-image: url("../../imgs/bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header_name {
+  color: white;
+  font-size: 42px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 7px rgb(58, 28, 28);
+}
+
+.header_title {
+  margin-top: 15px;
+  color: #1897ce;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header_under_title {
+  margin-top: 17px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.header_socials_container {
+  display: flex;
+}

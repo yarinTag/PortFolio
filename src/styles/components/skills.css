@@ -1,0 +1,42 @@
+/** @format */
+
+.skills_page {
+  /* background: var(--primaryColor); */
+  box-shadow: 8px 0 12px 6px var(--primaryWhiteFont);
+  background-color: rgb(238, 238, 238);
+}
+.skills__title {
+  /* padding: 1.5rem 0;
+  margin-bottom: 5rem; */
+  /* color: var(--primaryWhiteFont); */
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-bottom: 1px solid var(--iconReact);
+}
+
+.skill__link {
+  font-size: 5rem;
+}
+.react {
+  color: lightskyblue !important;
+}
+.html {
+  color: peru !important;
+}
+.skill__java {
+  color: red !important;
+}
+.css {
+  color: green !important;
+}
+.mongo {
+  color: green !important;
+}
+@media (max-width: 720px) {
+  .skill__link {
+    font-size: 3.8rem;
+  }
+}

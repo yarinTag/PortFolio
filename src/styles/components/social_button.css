@@ -1,0 +1,23 @@
+/** @format */
+
+.social_button_btn {
+  width: 56px;
+  height: 56px;
+  border: 1px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social_button_btn:focus {
+  outline: none;
+}
+
+.social_button_btn:hover {
+  border-color: tomato;
+  color: tomato;
+}

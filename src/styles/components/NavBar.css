@@ -1,0 +1,76 @@
+/** @format */
+
+.navigationBar {
+  flex-direction: row;
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 30px;
+  overflow: hidden;
+  height: 75px;
+  display: flex;
+  background-color: rgba(238, 234, 234, 0.589);
+  /* justify-content: center; */
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(199, 199, 199);
+  text-align: center;
+  text-decoration: none;
+}
+
+.home {
+  padding: 23px;
+}
+.home:hover {
+  border-color: rgb(189, 183, 182);
+  color: rgb(185, 179, 178);
+}
+
+.about {
+  padding: 23px;
+}
+.about:hover {
+  border-color: rgb(189, 183, 182);
+  color: rgb(185, 179, 178);
+}
+
+.skills:hover {
+  border-color: rgb(189, 183, 182);
+  color: rgb(185, 179, 178);
+}
+.skills {
+  padding: 23px;
+}
+
+.projects:hover {
+  border-color: rgb(189, 183, 182);
+  color: rgb(185, 179, 178);
+}
+.projects {
+  padding: 23px;
+}
+
+.contact:hover {
+  border-color: rgb(189, 183, 182);
+  color: rgb(185, 179, 178);
+}
+.contact {
+  padding: 23px;
+}
