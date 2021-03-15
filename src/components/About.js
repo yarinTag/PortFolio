@@ -6,7 +6,7 @@ import about from "../imgs/profileImg2.JPG";
 
 export default function About() {
   return (
-    <section className="about_page">
+    <section className="about_page" id="About">
       <div className="container">
         <h2 className="h2_a">Who Am I</h2>
         <h6 className="h6_y">
