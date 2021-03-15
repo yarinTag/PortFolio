@@ -6,6 +6,7 @@ import NavBar1 from "./components/NavBar1";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import "./App.css";
+import Projects from "./components/Projects";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <NavBar1 />
       <About />
       <Skills />
+      <Projects />
     </div>
   );
 }
