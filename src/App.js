@@ -1,12 +1,10 @@
 /** @format */
-
 import Header from "./components/Header";
 import "./styles/pages/page.css";
 import NavBar1 from "./components/NavBar1";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import "./App.css";
-
 import Projects from "./components/Projects";
 
 export default function App() {
@@ -15,7 +13,6 @@ export default function App() {
       <Header />
       <NavBar1 />
       <About />
-      {/* <NavBar1/> */}
       <Skills />
       <Projects />
     </div>
